@@ -1,0 +1,2139 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "source": "OpenStreetMap contributors, via Overpass API",
+    "license": "ODbL",
+    "area": "Mylapore, Chennai (near Kapaleeshwarar Temple)",
+    "bbox": [
+      13.033,
+      80.268,
+      13.037,
+      80.272
+    ],
+    "fetched_feature_count": 46
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364279970,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27018978,
+          13.0349242
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2701431,
+              13.0349798
+            ],
+            [
+              80.2702841,
+              13.0349501
+            ],
+            [
+              80.2702598,
+              13.0348408
+            ],
+            [
+              80.2701188,
+              13.0348705
+            ],
+            [
+              80.2701431,
+              13.0349798
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364280103,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.26976308,
+          13.03487342
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2697047,
+              13.0349077
+            ],
+            [
+              80.2698602,
+              13.0348854
+            ],
+            [
+              80.2698507,
+              13.034822
+            ],
+            [
+              80.2696951,
+              13.0348443
+            ],
+            [
+              80.2697047,
+              13.0349077
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364280027,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27015874000001,
+          13.034699219999998
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2701128,
+              13.0347343
+            ],
+            [
+              80.2702376,
+              13.0347177
+            ],
+            [
+              80.2702277,
+              13.0346466
+            ],
+            [
+              80.2701028,
+              13.0346632
+            ],
+            [
+              80.2701128,
+              13.0347343
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364280120,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.26968786666667,
+          13.035231244444443
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2696586,
+              13.0351466
+            ],
+            [
+              80.2696684,
+              13.0351977
+            ],
+            [
+              80.2696419,
+              13.0352025
+            ],
+            [
+              80.2696606,
+              13.0352997
+            ],
+            [
+              80.2696904,
+              13.0352943
+            ],
+            [
+              80.2696987,
+              13.0353378
+            ],
+            [
+              80.2697752,
+              13.0353239
+            ],
+            [
+              80.2697384,
+              13.0351321
+            ],
+            [
+              80.2696586,
+              13.0351466
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364280084,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.26972384000001,
+          13.03464784
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2696586,
+              13.0346809
+            ],
+            [
+              80.2698292,
+              13.0346616
+            ],
+            [
+              80.2698217,
+              13.0345983
+            ],
+            [
+              80.2696511,
+              13.0346175
+            ],
+            [
+              80.2696586,
+              13.0346809
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364280059,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.26989599999999,
+          13.035436379999998
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2699089,
+              13.035515
+            ],
+            [
+              80.2699825,
+              13.0354643
+            ],
+            [
+              80.2698767,
+              13.0353184
+            ],
+            [
+              80.269803,
+              13.0353692
+            ],
+            [
+              80.2699089,
+              13.035515
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364279973,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.2701199,
+          13.03439718
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2700951,
+              13.0344673
+            ],
+            [
+              80.2701903,
+              13.0344481
+            ],
+            [
+              80.2701571,
+              13.034292
+            ],
+            [
+              80.2700619,
+              13.0343112
+            ],
+            [
+              80.2700951,
+              13.0344673
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364280004,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.26957646000001,
+          13.03455132
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2695633,
+              13.0343897
+            ],
+            [
+              80.2695046,
+              13.0344027
+            ],
+            [
+              80.2695962,
+              13.0347938
+            ],
+            [
+              80.2696549,
+              13.0347807
+            ],
+            [
+              80.2695633,
+              13.0343897
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364280002,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.26974972000001,
+          13.035564579999999
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2697234,
+              13.0356523
+            ],
+            [
+              80.2698733,
+              13.0355348
+            ],
+            [
+              80.2697892,
+              13.035433
+            ],
+            [
+              80.2696393,
+              13.0355505
+            ],
+            [
+              80.2697234,
+              13.0356523
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364280054,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.26989432,
+          13.03437624
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2698474,
+              13.0342993
+            ],
+            [
+              80.2698941,
+              13.0345067
+            ],
+            [
+              80.2699647,
+              13.0344916
+            ],
+            [
+              80.269918,
+              13.0342843
+            ],
+            [
+              80.2698474,
+              13.0342993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364279949,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.26999886,
+          13.034343100000001
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2699389,
+              13.0342565
+            ],
+            [
+              80.2699829,
+              13.0344918
+            ],
+            [
+              80.2700888,
+              13.034473
+            ],
+            [
+              80.2700448,
+              13.0342377
+            ],
+            [
+              80.2699389,
+              13.0342565
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364279951,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.26974142,
+          13.03438108
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2697541,
+              13.0342906
+            ],
+            [
+              80.2696722,
+              13.0343095
+            ],
+            [
+              80.2697224,
+              13.0345168
+            ],
+            [
+              80.2698043,
+              13.0344979
+            ],
+            [
+              80.2697541,
+              13.0342906
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364279943,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27026159230769,
+          13.03564713846154
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2701454,
+              13.0355873
+            ],
+            [
+              80.2703659,
+              13.0359186
+            ],
+            [
+              80.2704338,
+              13.0358758
+            ],
+            [
+              80.2703896,
+              13.0358094
+            ],
+            [
+              80.2704267,
+              13.0357859
+            ],
+            [
+              80.2702682,
+              13.0355479
+            ],
+            [
+              80.2702509,
+              13.0355588
+            ],
+            [
+              80.270233,
+              13.035532
+            ],
+            [
+              80.2702072,
+              13.0355483
+            ],
+            [
+              80.2701982,
+              13.0355348
+            ],
+            [
+              80.2701637,
+              13.0355566
+            ],
+            [
+              80.2701727,
+              13.0355701
+            ],
+            [
+              80.2701454,
+              13.0355873
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364280081,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27044282,
+          13.0355871
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2703634,
+              13.0355531
+            ],
+            [
+              80.2704765,
+              13.0357003
+            ],
+            [
+              80.2705619,
+              13.0356381
+            ],
+            [
+              80.2704489,
+              13.0354909
+            ],
+            [
+              80.2703634,
+              13.0355531
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364280029,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.26922546,
+          13.03466958
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2691895,
+              13.0347453
+            ],
+            [
+              80.2693063,
+              13.034728
+            ],
+            [
+              80.2692794,
+              13.034556
+            ],
+            [
+              80.2691626,
+              13.0345733
+            ],
+            [
+              80.2691895,
+              13.0347453
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 240825824,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27011838461539,
+          13.035879723076922
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.269971,
+              13.0357548
+            ],
+            [
+              80.2700726,
+              13.035902
+            ],
+            [
+              80.2700864,
+              13.035893
+            ],
+            [
+              80.2701172,
+              13.0359388
+            ],
+            [
+              80.2700625,
+              13.0359752
+            ],
+            [
+              80.2701457,
+              13.0360941
+            ],
+            [
+              80.2703006,
+              13.0359911
+            ],
+            [
+              80.2702173,
+              13.0358722
+            ],
+            [
+              80.270174,
+              13.035901
+            ],
+            [
+              80.2701435,
+              13.0358556
+            ],
+            [
+              80.2701894,
+              13.0358255
+            ],
+            [
+              80.2700878,
+              13.0356783
+            ],
+            [
+              80.269971,
+              13.0357548
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364280111,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.26913532,
+          13.035241159999998
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2691279,
+              13.035091
+            ],
+            [
+              80.2690664,
+              13.0351039
+            ],
+            [
+              80.2691465,
+              13.0354664
+            ],
+            [
+              80.2692079,
+              13.0354535
+            ],
+            [
+              80.2691279,
+              13.035091
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 211277743,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27008096,
+          13.034073419999999
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2703862,
+              13.0339774
+            ],
+            [
+              80.2703981,
+              13.0340198
+            ],
+            [
+              80.2696279,
+              13.0342241
+            ],
+            [
+              80.2696064,
+              13.0341684
+            ],
+            [
+              80.2703862,
+              13.0339774
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364280107,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.26918742000001,
+          13.034500159999999
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2691559,
+              13.0345671
+            ],
+            [
+              80.2692645,
+              13.034546
+            ],
+            [
+              80.2692347,
+              13.0343998
+            ],
+            [
+              80.2691261,
+              13.0344208
+            ],
+            [
+              80.2691559,
+              13.0345671
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 354475087,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27095794,
+          13.034779320000002
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2709621,
+              13.0348452
+            ],
+            [
+              80.2710134,
+              13.0348243
+            ],
+            [
+              80.2709517,
+              13.0346805
+            ],
+            [
+              80.2709004,
+              13.0347014
+            ],
+            [
+              80.2709621,
+              13.0348452
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 354476398,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27082723999999,
+          13.034436020000001
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2707976,
+              13.0344803
+            ],
+            [
+              80.2708906,
+              13.0344623
+            ],
+            [
+              80.2708717,
+              13.0343696
+            ],
+            [
+              80.2707787,
+              13.0343876
+            ],
+            [
+              80.2707976,
+              13.0344803
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 354457792,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27094188,
+          13.035379139999998
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2708884,
+              13.0354162
+            ],
+            [
+              80.2710368,
+              13.0353789
+            ],
+            [
+              80.2710221,
+              13.0353236
+            ],
+            [
+              80.2708737,
+              13.0353608
+            ],
+            [
+              80.2708884,
+              13.0354162
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 354457174,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27081530000001,
+          13.03561658
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2707952,
+              13.0356503
+            ],
+            [
+              80.2708591,
+              13.0356389
+            ],
+            [
+              80.2708454,
+              13.035566
+            ],
+            [
+              80.2707816,
+              13.0355774
+            ],
+            [
+              80.2707952,
+              13.0356503
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 354457192,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27096284000001,
+          13.035451560000002
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.270911,
+              13.0354873
+            ],
+            [
+              80.2710541,
+              13.0354551
+            ],
+            [
+              80.2710406,
+              13.035398
+            ],
+            [
+              80.2708975,
+              13.0354301
+            ],
+            [
+              80.270911,
+              13.0354873
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 211277563,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27004747333335,
+          13.033921013333334
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2703862,
+              13.0339774
+            ],
+            [
+              80.2696064,
+              13.0341684
+            ],
+            [
+              80.2695523,
+              13.0338675
+            ],
+            [
+              80.2695934,
+              13.0338582
+            ],
+            [
+              80.2696605,
+              13.034114
+            ],
+            [
+              80.2700877,
+              13.0340075
+            ],
+            [
+              80.2700828,
+              13.0339855
+            ],
+            [
+              80.2701182,
+              13.0339759
+            ],
+            [
+              80.2701093,
+              13.0339433
+            ],
+            [
+              80.2701477,
+              13.0339308
+            ],
+            [
+              80.2701448,
+              13.0339116
+            ],
+            [
+              80.2703229,
+              13.0338599
+            ],
+            [
+              80.2702465,
+              13.0336222
+            ],
+            [
+              80.2702672,
+              13.0336156
+            ],
+            [
+              80.2703862,
+              13.0339774
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 354458015,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27080129999999,
+          13.035731340000002
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2707679,
+              13.0357567
+            ],
+            [
+              80.270857,
+              13.0357481
+            ],
+            [
+              80.2708514,
+              13.0356933
+            ],
+            [
+              80.2707623,
+              13.0357019
+            ],
+            [
+              80.2707679,
+              13.0357567
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 354458033,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27097346000001,
+          13.03551148
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2709234,
+              13.035543
+            ],
+            [
+              80.2710593,
+              13.0355167
+            ],
+            [
+              80.2710485,
+              13.0354642
+            ],
+            [
+              80.2709127,
+              13.0354905
+            ],
+            [
+              80.2709234,
+              13.035543
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 354476425,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.2710779,
+          13.034744620000001
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2710647,
+              13.0348106
+            ],
+            [
+              80.2711533,
+              13.0347743
+            ],
+            [
+              80.2710977,
+              13.0346456
+            ],
+            [
+              80.2710091,
+              13.034682
+            ],
+            [
+              80.2710647,
+              13.0348106
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364280065,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.26891282,
+          13.035285640000001
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.268908,
+              13.0351254
+            ],
+            [
+              80.2688337,
+              13.0351412
+            ],
+            [
+              80.26892,
+              13.035526
+            ],
+            [
+              80.2689944,
+              13.0355102
+            ],
+            [
+              80.268908,
+              13.0351254
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364280100,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.2688917,
+          13.034698700000002
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2689011,
+              13.0345187
+            ],
+            [
+              80.2687684,
+              13.0345517
+            ],
+            [
+              80.2688776,
+              13.0349687
+            ],
+            [
+              80.2690103,
+              13.0349357
+            ],
+            [
+              80.2689011,
+              13.0345187
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 354457250,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27098634000001,
+          13.035588839999999
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2709358,
+              13.0356289
+            ],
+            [
+              80.2710783,
+              13.0355967
+            ],
+            [
+              80.2710621,
+              13.0355288
+            ],
+            [
+              80.2709197,
+              13.0355609
+            ],
+            [
+              80.2709358,
+              13.0356289
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 208567696,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.269785,
+          13.033846316666667
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2696855,
+              13.0338101
+            ],
+            [
+              80.2697443,
+              13.0339923
+            ],
+            [
+              80.2699257,
+              13.0339367
+            ],
+            [
+              80.2698668,
+              13.0337544
+            ],
+            [
+              80.2698022,
+              13.0337743
+            ],
+            [
+              80.2696855,
+              13.0338101
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364157624,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27082578000001,
+          13.03583476
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2707893,
+              13.0358641
+            ],
+            [
+              80.2708896,
+              13.0358494
+            ],
+            [
+              80.2708805,
+              13.0357907
+            ],
+            [
+              80.2707802,
+              13.0358055
+            ],
+            [
+              80.2707893,
+              13.0358641
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 354457999,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27099378,
+          13.035679519999999
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2709328,
+              13.0357225
+            ],
+            [
+              80.2711009,
+              13.0356885
+            ],
+            [
+              80.2710853,
+              13.035615
+            ],
+            [
+              80.2709171,
+              13.0356491
+            ],
+            [
+              80.2709328,
+              13.0357225
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364280080,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.26892618,
+          13.03562814
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2688227,
+              13.0357083
+            ],
+            [
+              80.2691173,
+              13.0356094
+            ],
+            [
+              80.2690814,
+              13.0355079
+            ],
+            [
+              80.2687868,
+              13.0356068
+            ],
+            [
+              80.2688227,
+              13.0357083
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 354475834,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27088136,
+          13.03411324
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2708544,
+              13.0341734
+            ],
+            [
+              80.2709607,
+              13.0341398
+            ],
+            [
+              80.2709218,
+              13.034023
+            ],
+            [
+              80.2708155,
+              13.0340566
+            ],
+            [
+              80.2708544,
+              13.0341734
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 354457410,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27098348,
+          13.03579118
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2709598,
+              13.0358318
+            ],
+            [
+              80.2710403,
+              13.0358118
+            ],
+            [
+              80.271019,
+              13.0357303
+            ],
+            [
+              80.2709385,
+              13.0357502
+            ],
+            [
+              80.2709598,
+              13.0358318
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 354475067,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27124372,
+          13.03468584
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2712418,
+              13.034748
+            ],
+            [
+              80.271288,
+              13.0347353
+            ],
+            [
+              80.2712466,
+              13.0345926
+            ],
+            [
+              80.2712004,
+              13.0346053
+            ],
+            [
+              80.2712418,
+              13.034748
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 208567695,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.26971781666667,
+          13.033739433333333
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2698022,
+              13.0337743
+            ],
+            [
+              80.2696855,
+              13.0338101
+            ],
+            [
+              80.269661,
+              13.0338176
+            ],
+            [
+              80.2696074,
+              13.0336518
+            ],
+            [
+              80.2697486,
+              13.0336085
+            ],
+            [
+              80.2698022,
+              13.0337743
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 354457965,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27082806000001,
+          13.0360159
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2707658,
+              13.0360497
+            ],
+            [
+              80.27093,
+              13.0360288
+            ],
+            [
+              80.2709214,
+              13.0359652
+            ],
+            [
+              80.2707573,
+              13.0359861
+            ],
+            [
+              80.2707658,
+              13.0360497
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 211277567,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.269538375,
+          13.03376535
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2695934,
+              13.0338582
+            ],
+            [
+              80.2695523,
+              13.0338675
+            ],
+            [
+              80.2695226,
+              13.0338743
+            ],
+            [
+              80.2694746,
+              13.0336745
+            ],
+            [
+              80.2695036,
+              13.0336679
+            ],
+            [
+              80.2695216,
+              13.0336638
+            ],
+            [
+              80.2695455,
+              13.0336584
+            ],
+            [
+              80.2695934,
+              13.0338582
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 364280020,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.26872395999999,
+          13.034640920000001
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.268696,
+              13.0347001
+            ],
+            [
+              80.2687867,
+              13.0346887
+            ],
+            [
+              80.2687632,
+              13.0345525
+            ],
+            [
+              80.2686779,
+              13.0345632
+            ],
+            [
+              80.268696,
+              13.0347001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 368743532,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.2699427,
+          13.036324879999999
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2699021,
+              13.0363654
+            ],
+            [
+              80.2700179,
+              13.0363463
+            ],
+            [
+              80.2700036,
+              13.0362641
+            ],
+            [
+              80.2698878,
+              13.0362832
+            ],
+            [
+              80.2699021,
+              13.0363654
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 208567700,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.26986538333334,
+          13.033663783333331
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2697486,
+              13.0336085
+            ],
+            [
+              80.2698022,
+              13.0337743
+            ],
+            [
+              80.2698668,
+              13.0337544
+            ],
+            [
+              80.2700398,
+              13.0337014
+            ],
+            [
+              80.2699863,
+              13.0335356
+            ],
+            [
+              80.2697486,
+              13.0336085
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 368743537,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.26982208000001,
+          13.03633828
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2697872,
+              13.0363745
+            ],
+            [
+              80.2698862,
+              13.03636
+            ],
+            [
+              80.2698744,
+              13.0362839
+            ],
+            [
+              80.2697754,
+              13.0362985
+            ],
+            [
+              80.2697872,
+              13.0363745
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "osm_id": 354458178,
+        "osm_type": "way",
+        "building": "yes",
+        "name": null,
+        "building_levels_tag": null,
+        "addr_housenumber": null,
+        "addr_street": null,
+        "centroid": [
+          80.27104062000001,
+          13.035881739999999
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.2710088,
+              13.0359249
+            ],
+            [
+              80.2711103,
+              13.0358992
+            ],
+            [
+              80.2710884,
+              13.035817
+            ],
+            [
+              80.2709868,
+              13.0358427
+            ],
+            [
+              80.2710088,
+              13.0359249
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

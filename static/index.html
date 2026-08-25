@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>3D ULPIN — Vertical Property Mapping (SIH26011)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root {
+    --bg: #0a0e14;
+    --panel-bg: #10161f;
+    --panel-border: #22303f;
+    --text: #d7e0ea;
+    --text-dim: #7c8ca0;
+    --accent: #f5a623;
+    --accent-dim: #b97b1a;
+    --owned: #3ecf8e;
+    --vacant: #4a6fa5;
+    --grey-context: #5b6b7d;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0; width: 100%; height: 100%;
+    background: var(--bg); color: var(--text);
+    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    overflow: hidden;
+  }
+  #scene-container { position: absolute; inset: 0; }
+  canvas { display: block; }
+
+  #hud {
+    position: absolute; top: 0; left: 0; right: 0;
+    display: flex; justify-content: space-between; align-items: flex-start;
+    padding: 16px; pointer-events: none;
+  }
+  #hud > * { pointer-events: auto; }
+
+  #title-block {
+    background: rgba(16, 22, 31, 0.85);
+    border: 1px solid var(--panel-border);
+    border-radius: 8px;
+    padding: 10px 16px;
+    backdrop-filter: blur(4px);
+  }
+  #title-block h1 {
+    font-size: 14px; margin: 0 0 2px 0; letter-spacing: 0.02em;
+    color: var(--text);
+    font-weight: 600;
+  }
+  #title-block p {
+    font-size: 11px; margin: 0; color: var(--text-dim);
+  }
+
+  #loading {
+    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    background: var(--bg); color: var(--text-dim); font-size: 13px; z-index: 10;
+    flex-direction: column; gap: 8px;
+  }
+  #loading.hidden { display: none; }
+  .spinner {
+    width: 22px; height: 22px; border: 2px solid var(--panel-border);
+    border-top-color: var(--accent); border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  #error-banner {
+    position: absolute; top: 16px; left: 50%; transform: translateX(-50%);
+    background: #3a1414; border: 1px solid #7a2b2b; color: #ffb4b4;
+    padding: 10px 16px; border-radius: 6px; font-size: 12px; max-width: 480px;
+    display: none; z-index: 20;
+  }
+
+  #controls-block {
+    background: rgba(16, 22, 31, 0.85);
+    border: 1px solid var(--panel-border);
+    border-radius: 8px;
+    padding: 10px;
+    backdrop-filter: blur(4px);
+    display: flex; flex-direction: column; gap: 6px;
+    min-width: 180px;
+  }
+  .ctl-btn {
+    background: #16202c; border: 1px solid var(--panel-border); color: var(--text);
+    font-size: 12px; padding: 7px 10px; border-radius: 6px; cursor: pointer;
+    text-align: left; transition: background 0.15s, border-color 0.15s;
+  }
+  .ctl-btn:hover { background: #1c2b3a; border-color: var(--accent-dim); }
+  .ctl-btn:disabled { opacity: 0.4; cursor: default; }
+  .ctl-btn:disabled:hover { background: #16202c; border-color: var(--panel-border); }
+
+  #hint {
+    font-size: 11px; color: var(--text-dim); padding: 2px 2px 0 2px;
+  }
+
+  /* Side panel */
+  #side-panel {
+    position: absolute; top: 0; right: 0; bottom: 0; width: 320px;
+    background: rgba(13, 18, 25, 0.96);
+    border-left: 1px solid var(--panel-border);
+    padding: 20px;
+    transform: translateX(100%);
+    transition: transform 0.25s ease;
+    overflow-y: auto;
+    z-index: 15;
+  }
+  #side-panel.open { transform: translateX(0); }
+  #side-panel .close-btn {
+    position: absolute; top: 14px; right: 14px;
+    background: none; border: none; color: var(--text-dim);
+    font-size: 18px; cursor: pointer; line-height: 1;
+  }
+  #side-panel .close-btn:hover { color: var(--text); }
+  #side-panel h2 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--text-dim); margin: 18px 0 6px 0; font-weight: 600; }
+  #side-panel h2:first-of-type { margin-top: 4px; }
+  #ulpin-display {
+    font-family: "SF Mono", Menlo, Consolas, monospace;
+    font-size: 18px; letter-spacing: 0.03em; color: var(--accent);
+    word-break: break-all;
+  }
+  .field-row { display: flex; justify-content: space-between; gap: 10px;
+    font-size: 13px; padding: 4px 0; border-bottom: 1px solid #182230; }
+  .field-row .label { color: var(--text-dim); }
+  .field-row .value { text-align: right; }
+  .badge {
+    display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: 0.04em;
+    text-transform: uppercase; padding: 2px 7px; border-radius: 999px; margin-left: 6px;
+  }
+  .badge-illustrative { background: #3a2a10; color: #f5c26b; border: 1px solid #6b4a1a; }
+  .badge-owned { background: #103a26; color: #6be5aa; border: 1px solid #1a6b45; }
+  .badge-vacant { background: #16243a; color: #7fa8e5; border: 1px solid #1a3f6b; }
+
+  /* Legend */
+  #legend {
+    position: absolute; bottom: 16px; left: 16px;
+    background: rgba(16, 22, 31, 0.85);
+    border: 1px solid var(--panel-border);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 11px;
+    backdrop-filter: blur(4px);
+  }
+  #legend .legend-title { color: var(--text-dim); text-transform: uppercase;
+    letter-spacing: 0.06em; font-size: 10px; margin-bottom: 6px; }
+  .legend-row { display: flex; align-items: center; gap: 7px; padding: 2px 0; }
+  .legend-swatch { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+
+  /* Search */
+  #search-block {
+    background: rgba(16, 22, 31, 0.85);
+    border: 1px solid var(--panel-border);
+    border-radius: 8px;
+    padding: 10px;
+    backdrop-filter: blur(4px);
+    display: flex; flex-direction: column; gap: 6px;
+    min-width: 220px;
+  }
+  #search-block label { font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em;
+    color: var(--text-dim); }
+  #search-input {
+    background: #0d1219; border: 1px solid var(--panel-border); color: var(--text);
+    font-size: 12px; padding: 7px 9px; border-radius: 6px; font-family: monospace;
+    letter-spacing: 0.02em;
+  }
+  #search-input:focus { outline: none; border-color: var(--accent-dim); }
+  #search-status { font-size: 11px; color: var(--text-dim); min-height: 14px; }
+  #search-status.err { color: #ff9b9b; }
+</style>
+</head>
+<body>
+  <div id="scene-container"></div>
+
+  <div id="loading"><div class="spinner"></div><div>Loading footprints…</div></div>
+  <div id="error-banner"></div>
+
+  <div id="hud">
+    <div id="title-block">
+      <h1>3D ULPIN &amp; Vertical Property Mapping</h1>
+      <p>SIH26011 — Mylapore, Chennai · prototype</p>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:10px; align-items:flex-end;">
+      <div id="search-block">
+        <label for="search-input">Search ULPIN</label>
+        <div style="display:flex; gap:6px;">
+          <input id="search-input" type="text" placeholder="33-01-01-0025-01-01 or 33010100250101" style="flex:1;" />
+          <button id="search-btn" class="ctl-btn" style="text-align:center;">Go</button>
+        </div>
+        <div id="search-status"></div>
+      </div>
+      <div id="controls-block">
+        <button id="btn-collapse" class="ctl-btn" disabled>Collapse building</button>
+        <button id="btn-reset" class="ctl-btn">Reset view</button>
+        <div id="hint">Click the amber hero building to open its floors.</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="legend">
+    <div class="legend-title">Legend</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#f5a623"></span>Hero building</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#5b6b7d"></span>Context building</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#3ecf8e"></span>Owned unit</div>
+    <div class="legend-row"><span class="legend-swatch" style="background:#4a6fa5"></span>Vacant unit</div>
+  </div>
+
+  <div id="side-panel">
+    <button class="close-btn" id="panel-close">✕</button>
+    <h2>ULPIN</h2>
+    <div id="ulpin-display">—</div>
+    <span id="badge-illustrative" class="badge badge-illustrative">Illustrative</span>
+    <h2>Unit</h2>
+    <div class="field-row"><span class="label">Floor / Unit</span><span class="value" id="f-floor-unit">—</span></div>
+    <div class="field-row"><span class="label">Area</span><span class="value" id="f-area">—</span></div>
+    <div class="field-row"><span class="label">Status</span><span class="value" id="f-status">—</span></div>
+    <h2>Ownership <span style="font-weight:400; text-transform:none; letter-spacing:normal;">(synthetic)</span></h2>
+    <div class="field-row"><span class="label">Owner</span><span class="value" id="f-owner">—</span></div>
+    <div class="field-row"><span class="label">Type</span><span class="value" id="f-owntype">—</span></div>
+    <h2>Parent Parcel</h2>
+    <div class="field-row"><span class="label">Building</span><span class="value" id="f-building">—</span></div>
+    <div class="field-row"><span class="label">Parcel code</span><span class="value" id="f-parcel-code">—</span></div>
+    <div class="field-row"><span class="label">Address</span><span class="value" id="f-address">—</span></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>
